@@ -1,0 +1,61 @@
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git--version
+bash: git--version: command not found
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git --version
+git version 2.43.0.windows.1
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global user.name"SamuRai"
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global user.email "sergei_shapovalov1986@mail.ru"
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global --list
+user.email=sergei_shapovalov1986@mail.ru
+user.name=sshapovalov
+core.longpaths=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global user.name"SamuRai"
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global --list
+user.email=sergei_shapovalov1986@mail.ru
+user.name=sshapovalov
+core.longpaths=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global core.autocrlf true
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global core.safecrlf warn
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global core.quotepath off
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global --list
+user.email=sergei_shapovalov1986@mail.ru
+user.name=sshapovalov
+core.longpaths=true
+core.autocrlf=true
+core.safecrlf=warn
+core.quotepath=off
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+SShapovalov@SSHAPOVALOV-NB MINGW64 ~
+$ git config --global init.defaultBranch mai
